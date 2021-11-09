@@ -1,3 +1,4 @@
+
 $(function () {
 
     'use strict';
@@ -392,7 +393,7 @@ $(function () {
             centerMode: true,
             centerPadding: '0'
         });
-        
+
         $(this).closest('.slick-slider-area').find('.slick-prev').on("click", function () {
             slider.slick('slickPrev');
         });
