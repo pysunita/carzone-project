@@ -28,7 +28,7 @@ SECRET_KEY = 'kjo)j1)r5pox0hwlcf8=p_4xem3hn25cu)#q61mdz3n^hmc32d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False #in production environment debug should be False. So it won't show errors to website users.
 
-ALLOWED_HOSTS = ['gentle-taiga-07491.herokuapp.com', 'carzoneapp.co', 'www.carzoneapp.co']
+ALLOWED_HOSTS = ['gentle-taiga-07491.herokuapp.com']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
