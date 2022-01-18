@@ -143,6 +143,7 @@ STATIC_ROOT = os.path.join(BASE_DIR,'static')
 STATICFILES_DIRS = [
         os.path.join(BASE_DIR,'carzone/static'),
 ]
+# run: python manage.py collect static -->new static file will be created in root directory
 #media settings
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL =  '/media/'
