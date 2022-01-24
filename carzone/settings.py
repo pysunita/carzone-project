@@ -26,7 +26,7 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'kjo)j1)r5pox0hwlcf8=p_4xem3hn25cu)#q61mdz3n^hmc32d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False #in production environment debug should be False. So it won't show errors to website users.
+DEBUG = True #in production environment debug should be False. So it won't show errors to website users.
 
 ALLOWED_HOSTS = ['gentle-taiga-07491.herokuapp.com',"127.0.0.1"]
 
